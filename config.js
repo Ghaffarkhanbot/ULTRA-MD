@@ -14,13 +14,13 @@ const ownervb = process.env.OWNERS || defaultOwner;
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [];
+global.owner = [923103991035];
 for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
 global.botname = process.env.BOTNAME || 'ULTRA-MD';
-global.botNumber = process.env.BOT_NUMBER || '923051391007';
+global.botNumber = process.env.BOT_NUMBER || '923103991035';
 
 global.mods = []
 global.prems = []
